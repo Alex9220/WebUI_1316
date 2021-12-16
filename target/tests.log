@@ -1,0 +1,17 @@
+489  [main] INFO  lesson4.TriangleTest - Метод выполнился перед всеми тестами 1 раз
+489  [main] ERROR lesson4.TriangleTest - error log message
+221  [main] INFO  lesson4.TriangleTest - Метод выполнился перед всеми тестами 1 раз
+221  [main] ERROR lesson4.TriangleTest - error log message
+390  [main] INFO  lesson4.TriangleTest - Метод выполнился перед каждым тесом 1 раз
+430  [main] INFO  lesson4.TriangleTest - Метод выполнится после каждого теста
+448  [main] INFO  lesson4.TriangleTest - Метод выполнился перед каждым тесом 1 раз
+448  [main] INFO  lesson4.TriangleTest - Метод выполнится после каждого теста
+462  [main] INFO  lesson4.TriangleTest - Метод выполнился перед каждым тесом 1 раз
+462  [main] INFO  lesson4.TriangleTest - Метод выполнится после каждого теста
+476  [main] INFO  lesson4.TriangleTest - Метод выполнился перед каждым тесом 1 раз
+476  [main] INFO  lesson4.TriangleTest - Метод выполнится после каждого теста
+476  [main] INFO  lesson4.TriangleTest - Метод выполнился перед каждым тесом 1 раз
+476  [main] INFO  lesson4.TriangleTest - Метод выполнится после каждого теста
+489  [main] INFO  lesson4.TriangleTest - Метод выполнился перед каждым тесом 1 раз
+489  [main] INFO  lesson4.TriangleTest - Метод выполнится после каждого теста
+489  [main] INFO  lesson4.TriangleTest - Метод выполнится после всех тестов
