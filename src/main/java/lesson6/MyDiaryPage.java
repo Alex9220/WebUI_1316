@@ -1,5 +1,7 @@
 package lesson6;
 
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,6 +10,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.List;
 
+@Story("Страница Мой дневник")
 public class MyDiaryPage extends BaseView{
     public MyDiaryPage(WebDriver driver) {
         super(driver);
@@ -17,6 +20,7 @@ public class MyDiaryPage extends BaseView{
     @FindBy(xpath = likeLocatorByXpath)
     private WebElement newLikePost;
 
+    @Step("Клик на кнопку Лайка")
     public MyDiaryPage pressLikePost() {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(likeLocatorByXpath)));
         newLikePost.click();
@@ -28,6 +32,7 @@ public class MyDiaryPage extends BaseView{
     @FindBy(xpath = postButtom)
     private WebElement delitePost;
 
+    @Step("Клик на кнопку Удалить запись")
     public MyDiaryPage clickDeletePost() {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(postButtom)));
         delitePost.click();
@@ -38,6 +43,7 @@ public class MyDiaryPage extends BaseView{
     @FindBy(xpath = modalButtomXpath)
     private WebElement confirmDelete;
 
+    @Step("Подтверждение удаления")
     public MyDiaryPage clickConfirmDelete() {
         webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@class='fade modal in']")));
         confirmDelete.click();
